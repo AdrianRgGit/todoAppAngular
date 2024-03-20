@@ -1,9 +1,17 @@
-<main class="w-[40%] m-auto">
+<main class="w-[40%] m-auto relative">
   <section class="bg-purple p-4 mb-4">
     <h1 class="text-white text-2xl text-center">Angular ToDo</h1>
   </section>
 
   <section class="bg-white p-12">
+    <app-task></app-task>
+    <app-task></app-task>
+    <app-task></app-task>
+  </section>
 
+  <section class="absolute -bottom-7 left-1/2 transform -translate-x-1/2">
+    <button type="button" class="bg-purple p-4 rounded-2xl text-white text-xl">
+      New Task
+    </button>
   </section>
 </main>
