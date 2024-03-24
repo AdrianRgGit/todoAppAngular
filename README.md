@@ -1,27 +1,55 @@
 # TodoAppAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Hola! Este es mi proyecto de lista de tareas realizado con angular. He realizado este proyecto para prácticar con angular y conocer mejor el funcionamiento de este framework. Espero que os guste, nos vemos!
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone this repository to your local computer.
+2. Ensure you have Node.js installed.
+3. Execute the following command to install the dependencies:
 
-## Code scaffolding
+```bash
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
 
-## Build
+To start the application, use the following command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng serve
+```
 
-## Running unit tests
+or
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng serve -o
+```
 
-## Running end-to-end tests
+1. Open your browser and go to http://localhost:4200/ (or the URL displayed in your terminal).
+2. Begin recording your expenses and income.
+3. The application will automatically calculate your balance and display a detailed transaction history.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribution
 
-## Further help
+If you wish to contribute to this project, please follow these steps:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Fork the repository.
+2. Create a new branch for your feature: git checkout -b feature/new-feature.
+3. Make your changes and commit: git commit -m 'Add new feature'.
+4. Push your changes to the remote repository: git push origin feature/new-feature.
+5. Open a Pull Request on GitHub.
+
+## Preview
+
+![Preview](./src/assets/preview.gif)
+
+## Contact
+
+If you have any questions or suggestions, don't hesitate to contact me:
+
+- Name: Adrián Ramírez
+- Email: adrianramirezgalera@gmail.com
+- GitHub: [AdrianRgGit](https://github.com/AdrianRgGit)
+
+Thank you for using my application! I hope it proves useful to you.
