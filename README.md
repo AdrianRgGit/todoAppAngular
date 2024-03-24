@@ -1,6 +1,6 @@
 # TodoAppAngular
 
-Hola! Este es mi proyecto de lista de tareas realizado con angular. He realizado este proyecto para prácticar con angular y conocer mejor el funcionamiento de este framework. Espero que os guste, nos vemos!
+Hello, this is my task list project made with angular. I have made this project to practice with angular and to know better how this framework works. I hope you like it, see you!
 
 ## Installation
 
