@@ -1,0 +1,28 @@
+<button
+  type="button"
+  class="bg-purple p-4 rounded-2xl text-white text-xl hover:bg-violet-400 transition-colors duration-200 absolute -bottom-7 left-1/2 transform -translate-x-1/2"
+  (click)="toggleForm()"
+>
+  New Task
+</button>
+
+<button
+*ngIf="showForm"
+  type="button"
+  class="bg-red-400 p-4 rounded-2xl text-white text-xl hover:bg-red-300 transition-colors duration-200 absolute -bottom-7 left-1/2 transform -translate-x-1/2"
+  (click)="toggleForm()"
+>
+  Close new task
+</button>
+
+<form *ngIf="showForm" (keyup.enter)="addTask()">
+  <div>
+    <input
+      type="text"
+      placeholder="New Task"
+      [(ngModel)]="newTask"
+      name="newTask"
+      class="absolute -bottom-28 left-1/2 transform -translate-x-1/2 w-full p-4 focus:outline-purple"
+    />
+  </div>
+</form>
